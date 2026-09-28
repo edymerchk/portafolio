@@ -18,7 +18,12 @@ Visit http://localhost:8080 to view the portfolio.
 
 ## Project links
 
-Project names and descriptions are in `projects.js`. Replace each `url: null` with its confirmed public HTTPS URL. Use `access: "Private"` for a private project; it can remain without a link. Use `access: "Public"` if you want an explicit public label. Until configured, a project shows “Link coming soon” rather than a broken link.
+Project names, descriptions, URLs, and access labels are in `projects.js`.
+
+- Facturoide and Nido are private and have no public links.
+- [Better Sura](https://better-sura.vercel.app/) and [Cámara](https://camaras-cc6weex16-edymerchks-projects.vercel.app/) are public and link to the URLs provided by the owner.
+
+For future projects, use a confirmed public HTTPS URL and `access: "Public"`, or `url: null` and `access: "Private"` for a private project. An unconfigured project with neither a URL nor a private label shows “Link coming soon”.
 
 The supplied `../facturoide`, `../better-sura`, `../camaras-med`, and `../nido` paths were used to read project descriptions. They are local source directories, not deployed URLs. No private app data is included.
 
@@ -26,7 +31,7 @@ The GitHub profile link uses `edymerchk`, found in the Facturoide repository REA
 
 ## Publish on GitHub Pages
 
-1. Configure the public project URLs and access labels in `projects.js`.
+1. Review the project URLs and access labels in `projects.js`.
 2. Push the files to a GitHub repository.
 3. In **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, then **main** and **/ (root)**, and save.
 
@@ -34,4 +39,4 @@ For a repository named `portafolio`, the default URL is `https://edymerchk.githu
 
 GitHub documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
-The Editorial portfolio is implemented; it has not been published. Its external project links still need confirmation.
+The Editorial portfolio is implemented with the owner-provided project links and access labels; it has not been published.

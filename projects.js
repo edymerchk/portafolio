@@ -1,28 +1,27 @@
-// Add the real public URLs here. Local sibling directories are not website URLs.
-// Set access to "Private" where appropriate; private projects can have url: null.
+// Public URLs are confirmed by the owner. Private projects have no public link.
 const projects = [
   {
     name: "Facturoide", slug: "facturoide",
     description: "Keep subscriptions and monthly bills in one place. A clearer view of what’s due and what you’re spending.",
-    url: null, access: null,
+    url: null, access: "Private",
     icon: '<rect x="6" y="3" width="12" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/>',
   },
   {
     name: "Better Sura", slug: "better-sura",
     description: "Find doctors and healthcare providers in Sura’s directory, with simple filters for city and specialty.",
-    url: null, access: null,
+    url: "https://better-sura.vercel.app/", access: "Public",
     icon: '<path d="M10 4h4v6h6v4h-6v6h-4v-6H4v-4h6z"/>',
   },
   {
     name: "Cámara", slug: "camara",
     description: "A window into Medellín’s streets. Browse public traffic cameras in a grid or on a map before heading out.",
-    url: null, access: null,
+    url: "https://camaras-cc6weex16-edymerchks-projects.vercel.app/", access: "Public",
     icon: '<rect x="3" y="6" width="13" height="12" rx="3"/><path d="m16 10 5-3v10l-5-3"/><circle cx="8" cy="11" r="1"/>',
   },
   {
     name: "Nido", slug: "nido",
     description: "A shared space for the apartment hunt. Collect listings, compare the details, and decide together.",
-    url: null, access: null,
+    url: null, access: "Private",
     icon: '<path d="m3 11 9-8 9 8M5 10v10h14V10M9 20v-7h6v7"/>',
   },
 ];
