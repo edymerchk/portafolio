@@ -34,20 +34,22 @@ repository path as well as at a domain root.
 
 ## Content and project links
 
-The projects are Facturoide, Better Sura, Cámara, and Nido. Keep descriptions
-short, factual, and focused on what each app helps people do. Site copy is
+The projects are Facturoide, Better Sura, Cámara, Nido, SideVista, Maybe, and
+Portfolio Dashboard. Keep descriptions short, factual, and focused on what
+each app helps people do. Site copy is
 currently English; preserve accents in names such as Medellín and Cámara.
 
-The sibling directories `../facturoide`, `../better-sura`, `../camaras-med`, and
-`../nido` are source references, not deployed URLs. Do not modify those apps as
-part of portfolio work or copy private app data, credentials, or personal
-records into this public site.
+The sibling project directories are source references, not deployed URLs. Do
+not modify those apps as part of portfolio work or copy private app data,
+credentials, or personal records into this public site.
 
 Use confirmed public HTTPS URLs. Do not infer that an app or its repository is
-public. An unknown URL stays `null`; the renderer shows “Link coming soon”.
-Use `access: "Private"` for a confirmed private project, which may have no link,
-or `access: "Public"` when an explicit public label is wanted. `access: null`
-omits the label. These labels are descriptive, not access controls.
+public. An unknown URL stays `null`; the renderer shows “Link coming soon”
+when the project has no access label.
+Use `access: "Private"` for a confirmed private project, `access: "Invite only"`
+for a restricted project, or `access: "Public"` when an explicit public label
+is wanted. `access: null` omits the label. These labels are descriptive, not
+access controls.
 
 When changing the project list, also update the count and the `noscript`
 summary in `index.html`. The HTML templates in `projects.js` currently render
@@ -72,7 +74,7 @@ automated test suite; do not add test infrastructure for routine copy or style
 changes.
 
 For layout or interaction changes, use an available browser to check desktop
-and mobile widths, all four projects, links, keyboard focus, and horizontal
+and mobile widths, all seven projects, links, keyboard focus, and horizontal
 overflow. Preserve semantic headings, the skip link, accessible link names,
 the no-JavaScript fallback, and reduced-motion support. If browser validation
 is unavailable, say so rather than claiming it passed.
