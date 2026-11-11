@@ -31,12 +31,8 @@ The GitHub profile link uses `edymerchk`, found in the Facturoide repository REA
 
 ## Publish on GitHub Pages
 
-1. Review the project URLs and access labels in `projects.js`.
-2. Push the files to a GitHub repository.
-3. In **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, then **main** and **/ (root)**, and save.
-
-For a repository named `portafolio`, the default URL is `https://edymerchk.github.io/portafolio/`. A repository named `edymerchk.github.io` uses `https://edymerchk.github.io/` instead. Relative asset links work in both cases. `.nojekyll` keeps this a plain static site.
+The source repository is `edymerchk/portafolio`, published at `https://edymerchk.github.io/portafolio/`. The root URL, `https://edymerchk.github.io/`, is published from the legacy `edymerchk/edymerchk.github.com` repository's `master` branch and `/ (root)` folder. That repository mirrors the site's `index.html`, `styles.css`, `projects.js`, `favicon.svg`, and `.nojekyll` files. Update both repositories when publishing site changes. Relative asset links work at both URLs, and `.nojekyll` keeps the site on plain static hosting.
 
 GitHub documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
-The Editorial portfolio is implemented with the owner-provided project links and access labels; it has not been published.
+The Editorial portfolio is published at both URLs above.
